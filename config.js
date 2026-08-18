@@ -68,7 +68,7 @@ const configData = {
         },
         {
             id: 5,
-            image: "https://i.ibb.co.com/KcCRSCQf/images-3.jpg",
+            image: "https://i.ibb.co.com/MDxD2YV5/images-6.jpg",
             title: "মিরার ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://omg10.com/4/9722283",
             links: [
@@ -80,7 +80,19 @@ const configData = {
         },
         {
             id: 6,
-            image: "https://i.ibb.co.com/KcCRSCQf/images-3.jpg",
+            image: "https://i.ibb.co.com/wHP81Gp/images-1.jpg",
+            title: "মিরার ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
+            buttonLink: "https://omg10.com/4/9722283",
+            links: [
+                { title: "ভাই বোনের অস্থির বিডিও লিংক", url: "https://ln.run/UOIoe" },
+                { title: "পরিমনির ৭:৩০ সেকেন্ডের অস্থির ভিডিও লিংক", url: "https://ln.run/VNawT" }
+            ],
+            views: "857.9k",
+            reactions: { "😍": 876, "🥵": 195, "❤️": 250, "🫠": 689 }
+        },
+        {
+            id: 7,
+            image: "https://i.ibb.co.com/PGNKcV5p/images.jpg",
             title: "মিরার ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://omg10.com/4/9722283",
             links: [
