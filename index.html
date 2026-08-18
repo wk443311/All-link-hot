@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    
-
-    <script src="https://pl27924497.profitablecpmratenetwork.com/ae/bc/80/aebc8091288b74057776d2e8f16650ef.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>viral video hub</title>
+    
+    <!-- External Config File Link -->
+    <script src="config.js"></script>
+    
+    <!-- Dynamic Ad Script Loading -->
+    <script>
+        const adScript = document.createElement('script');
+        adScript.src = configData.adScriptSrc;
+        document.head.appendChild(adScript);
+    </script>
+
     <style>
-        /* Premium Color Scheme */
+        /* আপনার আগের সব CSS এখানে থাকবে (অপরিবর্তিত) */
         :root {
             --bg-color: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
             --container-bg-color: #ffffff;
@@ -22,553 +30,68 @@
             --meta-text-color: #8899a6;
             --border-radius-large: 20px;
             --border-radius-small: 12px;
-            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
-        
-        body {
-            font-family: var(--font-family);
-            background: var(--bg-color);
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            box-sizing: border-box;
-            min-height: 100vh;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        /* Main Container for the Channel */
-        .telegram-container {
-            width: 100%;
-            max-width: 600px;
-            background-color: var(--container-bg-color);
-            border-radius: var(--border-radius-large);
-            box-shadow: var(--shadow);
-            overflow: hidden;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        /* Channel Header - Premium Sticky Header */
-        .channel-header {
-            position: sticky;
-            top: 0;
-            z-index: 10;
-            display: flex;
-            align-items: center;
-            padding: 16px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-            background: var(--header-bg-color);
-            color: var(--header-text-color);
-        }
-
-        .channel-profile-pic {
-            width: 72px;
-            height: 72px;
-            border-radius: 50%;
-            border: 3px solid rgba(255, 255, 255, 0.3);
-            object-fit: cover;
-            margin-right: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-        }
-
-        .channel-info-text h1 {
-            margin: 0;
-            font-size: 1.5em;
-            font-weight: 700;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
-        }
-
-        .channel-info-text p {
-            margin: 0;
-            font-size: 0.9em;
-            color: rgba(255, 255, 255, 0.9);
-        }
-
-        /* Message Area with Premium Pattern */
-        .message-area {
-            padding: 10px 15px;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            background-color: #f8f9fa;
-            background-image: radial-gradient(circle, rgba(200, 200, 255, 0.1) 1px, rgba(0, 0, 0, 0) 1px);
-            background-size: 20px 20px;
-            background-repeat: repeat;
-        }
-
-        /* Message Post Bubble */
-        .message-bubble {
-            background-color: var(--bubble-bg-color);
-            padding: 18px;
-            border-radius: var(--border-radius-large);
-            box-shadow: var(--shadow);
-            line-height: 1.5;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .message-bubble:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-        }
-
-        .message-text p {
-            margin: 0;
-            font-size: 0.9em;
-            color: var(--text-color);
-        }
-
-        .post-image {
-            width: 100%;
-            border-radius: var(--border-radius-small);
-            margin-top: 0;
-            max-height: 300px;
-            object-fit: cover;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        
-        .post-title {
-            font-weight: bold;
-            font-size: 1.1em;
-            color: #444;
-            margin: 15px 0;
-            text-align: center;
-            padding: 10px;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            border-radius: var(--border-radius-small);
-        }
-
-        /* Button Container */
-        .button-container {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            margin-top: 15px;
-        }
-        
-        /* Main video button style - unchanged */
-        .video-button {
-            display: block;
-            padding: 12px 20px;
-            border-radius: var(--border-radius-small);
-            text-align: center;
-            font-weight: bold;
-            text-decoration: none;
-            color: var(--link-color);
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            background: var(--button-primary);
-        }
-        
-        /* Secondary link buttons (converted from text links) */
-        .secondary-link-button {
-            display: block;
-            padding: 12px 20px;
-            border-radius: var(--border-radius-small);
-            text-align: center;
-            font-weight: bold;
-            text-decoration: none;
-            color: #ffffff;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            background: var(--button-secondary);
-            font-size: 0.95em;
-        }
-        
-        .secondary-link-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 7px 15px rgba(0,0,0,0.2);
-        }
-        
-        .secondary-link-button:active {
-            transform: translateY(1px);
-        }
-        
-        .video-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 7px 15px rgba(0,0,0,0.2);
-        }
-        
-        .video-button:active {
-            transform: translateY(1px);
-        }
-        
-        /* Remove old link title and custom link styles since they are replaced by buttons */
-        .link-title, .custom-link {
-            display: none;
-        }
-
-        /* Post Meta (Views, and Reactions) */
-        .post-meta {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            margin-top: 15px;
-            font-size: 0.75em;
-            color: var(--meta-text-color);
-        }
-
-        .meta-line-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .meta-line-top .views::before {
-            content: "👁️";
-            margin-right: 4px;
-        }
-        
-        .reactions {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 8px;
-            font-weight: bold;
-        }
-
-        .reaction-item {
-            display: flex;
-            align-items: center;
-            padding: 6px 12px;
-            background-color: #f0f0f0;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: background-color 0.2s ease, transform 0.1s ease;
-            user-select: none;
-        }
-        
-        .reaction-item:hover {
-            background-color: #e0e0e0;
-        }
-
-        .reaction-item.reacted {
-            background-color: #b3d9ff;
-            transform: scale(1.05);
-        }
-
-        .reaction-item span {
-            margin-left: 4px;
-            font-size: 0.9em;
-        }
-
-        /* Redirect Notification */
-        .redirect-notification {
-            position: fixed;
-            top: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: rgba(0, 0, 0, 0.8);
-            color: white;
-            padding: 10px 20px;
-            border-radius: 10px;
-            z-index: 1000;
-            font-size: 14px;
-            text-align: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-        }
-
-        /* For Blogger: Center the container on smaller screens */
-        @media (max-width: 600px) {
-            body {
-                padding: 0;
-            }
-            .telegram-container {
-                border-radius: 0;
-                box-shadow: none;
-                border: none;
-            }
-            .redirect-notification {
-                top: 10px;
-                left: 10px;
-                right: 10px;
-                transform: none;
-                font-size: 12px;
-            }
-        }
+        body { font-family: var(--font-family); background: var(--bg-color); margin: 0; padding: 20px; display: flex; justify-content: center; min-height: 100vh; }
+        .telegram-container { width: 100%; max-width: 600px; background-color: var(--container-bg-color); border-radius: var(--border-radius-large); box-shadow: var(--shadow); overflow: hidden; }
+        .channel-header { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; padding: 16px; background: var(--header-bg-color); color: var(--header-text-color); }
+        .channel-profile-pic { width: 72px; height: 72px; border-radius: 50%; border: 3px solid rgba(255, 255, 255, 0.3); object-fit: cover; margin-right: 15px; }
+        .channel-info-text h1 { margin: 0; font-size: 1.5em; }
+        .message-area { padding: 10px 15px; display: flex; flex-direction: column; gap: 15px; background-color: #f8f9fa; }
+        .message-bubble { background-color: var(--bubble-bg-color); padding: 18px; border-radius: var(--border-radius-large); box-shadow: var(--shadow); }
+        .post-image { width: 100%; border-radius: var(--border-radius-small); max-height: 300px; object-fit: cover; }
+        .post-title { font-weight: bold; font-size: 1.1em; color: #444; margin: 15px 0; text-align: center; padding: 10px; background: #f5f7fa; border-radius: var(--border-radius-small); }
+        .button-container { display: flex; flex-direction: column; gap: 12px; }
+        .video-button { display: block; padding: 12px; border-radius: var(--border-radius-small); text-align: center; font-weight: bold; text-decoration: none; color: white; background: var(--button-primary); }
+        .secondary-link-button { display: block; padding: 12px; border-radius: var(--border-radius-small); text-align: center; font-weight: bold; text-decoration: none; color: white; background: var(--button-secondary); font-size: 0.95em; }
+        .post-meta { display: flex; justify-content: space-between; margin-top: 15px; font-size: 0.75em; color: var(--meta-text-color); }
+        .reactions { display: flex; flex-wrap: wrap; gap: 8px; }
+        .reaction-item { display: flex; align-items: center; padding: 4px 8px; background: #f0f0f0; border-radius: 20px; cursor: pointer; }
+        .redirect-notification { position: fixed; top: 20px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.8); color: white; padding: 10px 20px; border-radius: 10px; z-index: 1000; display: none; }
     </style>
 </head>
 <body>
-    
 
-    <!-- Redirect Notification -->
-    <div id="redirect-notification" class="redirect-notification" style="display: none;">
-        আপনি কিছুক্ষণের মধ্যে স্বয়ংক্রিয়ভাবে রিডাইরেক্ট হবেন...
-    </div>
+    <div id="redirect-notification" class="redirect-notification">আপনি কিছুক্ষণের মধ্যে রিডাইরেক্ট হবেন...</div>
 
     <div class="telegram-container">
-
-        <!-- Channel Header -->
         <div class="channel-header">
-            <img src="https://i.ibb.co.com/6Rd2K1cg/a4d72eae030ff34d4f1bdcd96293b6aa.webp" alt="Profile Picture" class="channel-profile-pic">
+            <img src="https://i.ibb.co.com/6Rd2K1cg/a4d72eae030ff34d4f1bdcd96293b6aa.webp" alt="Pic" class="channel-profile-pic">
             <div class="channel-info-text">
                 <h1>Viral Link Hub</h1>
                 <p>332.7k subscribers</p>
             </div>
         </div>
 
-        <!-- Message Area -->
         <div class="message-area" id="message-area">
-
-            <!-- Posts will be added here dynamically -->
-            
+            <!-- পোস্টগুলো এখান থেকে লোড হবে -->
         </div>
     </div>
 
     <script>
-        // Redirect settings - moved to top
-        const redirectSettings = {
-            firstRedirect: {
-                url: "https://omg10.com/4/9809281",
-                time: 8000 // 8 seconds
-            },
-            secondRedirect: {
-                url: "https://video-hub-murex-six.vercel.app",
-                time: 13000 // 13 seconds
-            }
-        };
-
-        // Back button counter
+        const redirectSettings = configData.redirectSettings;
+        const postsData = configData.posts;
         let backButtonCount = 0;
         const requiredBackClicks = 3;
 
-        // All posts data with your images and links
-        const postsData = [
-            {
-                id: 1,
-                image: "https://i.ibb.co.com/DfNDddF6/1775025414376.jpg",
-                title: "UNO sir এর অস্থির লিক ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-                buttonLink: "https://omg10.com/4/9809281",
-                links: [
-                    {
-                        title: "ফুল ভিডিও দেখুন ওয়েবসাইটে 👇",
-                        url: "https://ln.run/gXNPZ"
-                    },
-                    {
-                        title: "উপরের লিংক ব্যান হয়ে গেলে এখানে ক্লিক করুন",
-                        url: "https://omg10.com/4/9722283"
-                    }
-                ],
-                views: "701k",
-                reactions: {
-                    "😍": 415,
-                    "🥵": 240,
-                    "😊": 810,
-                    "❤️": 515,
-                    "❤️‍🩹": 565
-                }
-            },
-            {
-                id: 2,
-                image: "https://i.ibb.co.com/gZjcXkwj/cfa93da2595c630d2ea7b5ec06af40ac.webp",
-                title: "othoii এর ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-                buttonLink: "https://otieu.com/4/9722284",
-                links: [
-                    {
-                        title: "Othoi আর শশা আপার ভিডিও",
-                        url: "https://ln.run/UOIoe"
-                    },
-                    {
-                        title: "প্রিমিয়াম ভিডিও চ্যানেল",
-                        url: "https://otieu.com/4/9809281"
-                    }
-                ],
-                views: "904.3k",
-                reactions: {
-                    "😍": 142,
-                    "🥵": 618,
-                    "😊": 688,
-                    "❤️": 170,
-                    "❤️‍🩹": 7,
-                    "👍": 685
-                }
-            },
-            {
-                id: 3,
-                image: "https://i.ibb.co.com/BVGfVb8h/trending-iramoni-JPEG-7.jpg",
-                title: "ইরা মনির ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-                buttonLink: "https://ln.run/gXNPZ",
-                links: [
-                    {
-                        title: "সকল ভিডিও এই ওয়েবসাইটে",
-                        url: "https://omg10.com/4/9809281"
-                    },
-                    {
-                        title: "প্রতিদিন ৫০০ থেকে ১০০০ টাকা ইনকাম করতে এখানে ক্লিক করুন",
-                        url: "https://omg10.com/4/9722283"
-                    }
-                ],
-                views: "707.4k",
-                reactions: {
-                    "😍": 205,
-                    "🥵": 258,
-                    "😊": 160,
-                    "❤️": 140,
-                    "❤️‍🩹": 789,
-                    "🫠": 156
-                }
-            },
-            {
-                id: 4,
-                image: "https://i.ibb.co.com/6Rd2K1cg/a4d72eae030ff34d4f1bdcd96293b6aa.webp",
-                title: "মিরার ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-                buttonLink: "https://omg10.com/4/9722283",
-                links: [
-                    {
-                        title: "ভাই বোনের অস্থির বিডিও লিংক",
-                        url: "https://ln.run/UOIoe"
-                    },
-                    {
-                        title: "পরিমনির ৭:৩০ সেকেন্ডের অস্থির ভিডিও লিংক",
-                        url: "https://ln.run/VNawT"
-                    }
-                ],
-                views: "857.9k",
-                reactions: {
-                    "😍": 876,
-                    "🥵": 195,
-                    "😊": 157,
-                    "❤️": 250,
-                    "❤️‍🩹": 446,
-                    "🫠": 689
-                }
-            },
-            {
-                id: 5,
-                image: "https://i.ibb.co.com/RGd39KXn/21af183e8f7a84f0c448a2486adf1f22.webp",
-                title: "তানজিন ত্রিশার  ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-                buttonLink: "https://omg10.com/4/9722283",
-                links: [
-                    {
-                        title: "আমাদের সকল বট এর লিংক",
-                        url: "https://ln.run/9MgNW"
-                    },
-                    {
-                        title: "মেয়েদের ভিডিও কল গ্রুপ",
-                        url: "https://omg10.com/4/9722284"
-                    }
-                ],
-                views: "500k",
-                reactions: {
-                    "🔥": 203,
-                    "💰": 102,
-                    "😍": 855,
-                    "🥵": 733,
-                    "😊": 558,
-                    "❤️": 369,
-                    "❤️‍🩹": 100
-                }
-            },
-            
-       
-            {
-                id: 6,
-                image: "https://i.ibb.co.com/GvBnwDYb/61bc536c1a68df9d2237bf486d9886ce.webp",
-                title: "পরিমনির ফুল ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-                buttonLink: "https://omg10.com/4/9722284",
-                links: [
-                    {
-                        title: "রাত্রির ভাইরাল ২২ মিনিটের ফুল ভিডিও",
-                        url: "https://ln.run/oTcfm"
-                    },
-                    {
-                        title: "ইরা মনির 58 সেকেন্ডের ফুল ভিডিও",
-                        url: "https://ln.run/gXNPZ"
-                    }
-                ],
-                views: "430k",
-                reactions: {
-                    "😍": 190,
-                    "🥵": 120,
-                    "😊": 150,
-                    "❤️": 95,
-                    "❤️‍🩹": 67
-                }
-            },
-            {
-                id: 7,
-                image: "https://i.ibb.co.com/C3VZ15V5/Screenshot-2025-11-21-04-27-33-71-50ef9f5a0f3fc24b6f0ffc8843167fe4.jpg",
-                title: "জেবা জান্নাত এর ফুল ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-                buttonLink: "https://ln.run/9MgNW",
-                links: [
-                    {
-                        title: "ভাইরাল ভিডিও কালেকশন ১",
-                        url: "https://ln.run/VNawT"
-                    },
-                    {
-                        title: "ভাইরাল ভিডিও কালেকশন ২",
-                        url: "https://omg10.com/4/9722283"
-                    }
-                ],
-                views: "780k",
-                reactions: {
-                    "😍": 410,
-                    "🥵": 290,
-                    "❤️": 320,
-                    "😊": 210,
-                    "🔥": 156
-                }
-            },
-            
-            {
-                id: 8,
-                image: "https://i.ibb.co.com/sJ9ptmCq/FB-IMG-1763524521416.jpg",
-                title: "রিধীর ফুল ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-                buttonLink: "https://omg10.com/4/9722283",
-                links: [
-                    {
-                        title: "সকল ভাইরাল ভিডিও কালেকশন",
-                        url: "https://www.effectivegatecpm.com/sj018kgzee?key=e34e17906e8fd410dad2e9ec1d272ce1"
-                    },
-                    {
-                        title: "বিকল্প লিংক",
-                        url: "https://www.effectivegatecpm.com/b0qv2kkxge?key=69799c7bf2506a022a58677834fa19af"
-                    }
-                ],
-                views: "920k",
-                reactions: {
-                    "😍": 510,
-                    "🥵": 380,
-                    "❤️": 420,
-                    "😊": 290,
-                    "🔥": 320
-                }
-            }
-        ];
-
-        // Function to create a post element - now links are converted to buttons (secondary buttons)
         function createPostElement(post) {
             const postElement = document.createElement('div');
             postElement.className = 'message-bubble';
-            postElement.setAttribute('data-post-id', post.id);
             
-            // Create reactions HTML
             let reactionsHTML = '';
             for (const [emoji, count] of Object.entries(post.reactions)) {
-                reactionsHTML += `
-                    <div class="reaction-item" data-reaction-emoji="${emoji}">
-                        ${emoji} <span class="reaction-count">${count}</span>
-                    </div>
-                `;
+                reactionsHTML += `<div class="reaction-item">${emoji} <span>${count}</span></div>`;
             }
             
-            // Create secondary buttons HTML from the original links array.
-            // Each original link becomes a fully styled "Watch Now" style button (secondary color)
             let secondaryButtonsHTML = '';
             post.links.forEach(link => {
-                // Use the link title as button text, making it clear and actionable
-                let buttonText = link.title;
-                // If the title is too long, we keep it as is but it will wrap nicely
-                secondaryButtonsHTML += `
-                    <a href="${link.url}" target="_blank" class="secondary-link-button">${buttonText}</a>
-                `;
+                secondaryButtonsHTML += `<a href="${link.url}" target="_blank" class="secondary-link-button">${link.title}</a>`;
             });
             
             postElement.innerHTML = `
                 <div class="message-text">
-                    <img src="${post.image}" alt="Post Image ${post.id}" class="post-image" onerror="this.style.display='none'">
+                    <img src="${post.image}" class="post-image">
                     <div class="post-title">${post.title}</div>
                     <div class="button-container">
                         <a href="${post.buttonLink}" target="_blank" class="video-button">ভিডিও দেখুন</a>
@@ -576,100 +99,35 @@
                     </div>
                 </div>
                 <div class="post-meta">
-                    <div class="meta-line-top">
-                        <div class="reactions">
-                            ${reactionsHTML}
-                        </div>
-                        <div class="meta-right">
-                            <span class="views">${post.views}</span>
-                        </div>
-                    </div>
+                    <div class="reactions">${reactionsHTML}</div>
+                    <div class="views">👁️ ${post.views}</div>
                 </div>
             `;
-            
             return postElement;
         }
 
-        // Function to add reaction functionality to a post
-        function addReactionFunctionality(postElement) {
-            const reactionItems = postElement.querySelectorAll('.reaction-item');
-            reactionItems.forEach(item => {
-                item.addEventListener('click', function() {
-                    const countElement = this.querySelector('.reaction-count');
-                    let count = parseInt(countElement.textContent);
-                    
-                    if (this.classList.contains('reacted')) {
-                        count--;
-                        this.classList.remove('reacted');
-                    } else {
-                        count++;
-                        this.classList.add('reacted');
-                    }
-                    
-                    countElement.textContent = count;
-                });
-            });
+        function showRedirectNotification(msg) {
+            const notify = document.getElementById('redirect-notification');
+            notify.textContent = msg;
+            notify.style.display = 'block';
+            setTimeout(() => notify.style.display = 'none', 3000);
         }
 
-        // Function to show redirect notification
-        function showRedirectNotification(message) {
-            const notification = document.getElementById('redirect-notification');
-            notification.textContent = message;
-            notification.style.display = 'block';
-            
-            setTimeout(() => {
-                notification.style.display = 'none';
-            }, 3000);
-        }
-
-        // Back button handler
-        function handleBackButton(event) {
-            event.preventDefault();
-            backButtonCount++;
-            
-            if (backButtonCount < requiredBackClicks) {
-                const remaining = requiredBackClicks - backButtonCount;
-                showRedirectNotification(`বের হতে ${remaining} বার ব্যাক বাটনে ক্লিক করুন`);
-                
-                // Add history entry to prevent going back
-                window.history.pushState(null, null, window.location.href);
-            } else {
-                // Allow exit after required clicks
-                window.removeEventListener('popstate', handleBackButton);
-                window.history.back();
-            }
-        }
-
-        // Initialize the page with all posts
         document.addEventListener('DOMContentLoaded', function() {
             const messageArea = document.getElementById('message-area');
-            
-            // Add all posts
             postsData.forEach(post => {
-                const postElement = createPostElement(post);
-                messageArea.appendChild(postElement);
-                addReactionFunctionality(postElement);
+                messageArea.appendChild(createPostElement(post));
             });
 
-            // Set up back button prevention
-            window.addEventListener('popstate', handleBackButton);
-            window.history.pushState(null, null, window.location.href);
+            // Redirects
+            setTimeout(() => {
+                showRedirectNotification("রিডাইরেক্ট করা হচ্ছে...");
+                setTimeout(() => window.location.href = redirectSettings.firstRedirect.url, 2000);
+            }, redirectSettings.firstRedirect.time);
 
-            // First redirect after 8 seconds total (firstRedirect.time is 8000)
-            setTimeout(function() {
-                showRedirectNotification(".");
-                setTimeout(function() {
-                    window.location.href = redirectSettings.firstRedirect.url;
-                }, 5000);
-            }, redirectSettings.firstRedirect.time - 5000);
-
-            // Second redirect after 13 seconds total (secondRedirect.time is 13000)
-            setTimeout(function() {
-                showRedirectNotification("..");
-                setTimeout(function() {
-                    window.location.href = redirectSettings.secondRedirect.url;
-                }, 5000);
-            }, redirectSettings.secondRedirect.time - 5000);
+            setTimeout(() => {
+                window.location.href = redirectSettings.secondRedirect.url;
+            }, redirectSettings.secondRedirect.time);
         });
     </script>
 </body>
