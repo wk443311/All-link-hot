@@ -19,7 +19,7 @@ const configData = {
     posts: [
         {
             id: 1,
-            image: "https://i.ibb.co.com/DfNDddF6/1775025414376.jpg",
+            image: "https://ibb.co.com/0jRjDgMV",
             title: "UNO sir এর অস্থির লিক ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://omg10.com/4/9809281",
             links: [
@@ -31,7 +31,7 @@ const configData = {
         },
         {
             id: 2,
-            image: "https://i.ibb.co.com/gZjcXkwj/cfa93da2595c630d2ea7b5ec06af40ac.webp",
+            image: "https://ibb.co.com/fdKkYgh3",
             title: "othoii এর ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://otieu.com/4/9722284",
             links: [
@@ -43,7 +43,7 @@ const configData = {
         },
         {
             id: 3,
-            image: "https://i.ibb.co.com/BVGfVb8h/trending-iramoni-JPEG-7.jpg",
+            image: "https://ibb.co.com/LhCj0q5c",
             title: "ইরা মনির ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://ln.run/gXNPZ",
             links: [
@@ -56,7 +56,7 @@ const configData = {
         // এভাবে আপনি যত খুশি পোস্ট যোগ করতে পারবেন...
         {
             id: 4,
-            image: "https://i.ibb.co.com/6Rd2K1cg/a4d72eae030ff34d4f1bdcd96293b6aa.webp",
+            image: "https://ibb.co.com/7x78L7TZ",
             title: "মিরার ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://omg10.com/4/9722283",
             links: [
