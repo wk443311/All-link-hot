@@ -20,7 +20,7 @@ const configData = {
         {
             id: 1,
             image: "https://i.ibb.co.com/MDxD2YV5/images-6.jpg",
-            title: "UNO sir এর অস্থির লিক ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
+            title: "নেট দুনিয়ার ভাইরাল হওয়া টিকটকারের লিক ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://omg10.com/4/9809281",
             links: [
                 { title: "ফুল ভিডিও দেখুন ওয়েবসাইটে 👇", url: "https://ln.run/gXNPZ" },
@@ -32,10 +32,10 @@ const configData = {
         {
             id: 2,
             image: "https://i.ibb.co.com/qY4NMStH/images-5.jpg",
-            title: "othoii এর ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
+            title: "কক্সবাজার হোটেলের নাইট সার্ভিসের ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://otieu.com/4/9722284",
             links: [
-                { title: "Othoi আর শশা আপার ভিডিও", url: "https://ln.run/UOIoe" },
+                { title: "কক্সবাজার এর লিংক ভিডিও", url: "https://ln.run/UOIoe" },
                 { title: "প্রিমিয়াম ভিডিও চ্যানেল", url: "https://otieu.com/4/9809281" }
             ],
             views: "904.3k",
@@ -44,7 +44,7 @@ const configData = {
         {
             id: 3,
             image: "https://i.ibb.co.com/h1KQgnf4/images-4.jpg",
-            title: "ইরা মনির ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
+            title: "টিকটকার সাদিয়ার রিসোর্ট এর লিক ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://ln.run/gXNPZ",
             links: [
                 { title: "সকল ভিডিও এই ওয়েবসাইটে", url: "https://omg10.com/4/9809281" },
@@ -57,7 +57,7 @@ const configData = {
         {
             id: 4,
             image: "https://i.ibb.co.com/KcCRSCQf/images-3.jpg",
-            title: "মিরার ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
+            title: "বয়ফ্রেন্ডের সাথে ট্যুরের লিক হওয়া ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://omg10.com/4/9722283",
             links: [
                 { title: "ভাই বোনের অস্থির বিডিও লিংক", url: "https://ln.run/UOIoe" },
@@ -81,7 +81,7 @@ const configData = {
         {
             id: 6,
             image: "https://i.ibb.co.com/wHP81Gp/images-1.jpg",
-            title: "মিরার ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
+            title: "নতুন ভাইরাল হওয়া আইটেম বম এর ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://omg10.com/4/9722283",
             links: [
                 { title: "ভাই বোনের অস্থির বিডিও লিংক", url: "https://ln.run/UOIoe" },
@@ -93,7 +93,7 @@ const configData = {
         {
             id: 7,
             image: "https://i.ibb.co.com/PGNKcV5p/images.jpg",
-            title: "মিরার ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
+            title: "নতুন নিব্বির নতুন গোপম ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://omg10.com/4/9722283",
             links: [
                 { title: "ভাই বোনের অস্থির বিডিও লিংক", url: "https://ln.run/UOIoe" },
