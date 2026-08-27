@@ -19,8 +19,8 @@ const configData = {
     posts: [
         {
             id: 1,
-            image: "https://i.ibb.co.com/MDxD2YV5/images-6.jpg",
-            title: "নেট দুনিয়ার ভাইরাল হওয়া টিকটকারের লিক ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
+            image: "https://i.ibb.co.com/hSJNC6k/FB-IMG-1787849036562.jpg",
+            title: "নেট দুনিয়ার ভাইরাল হওয়া Instagram এর ক্রাশ সুমাইয়া সাঈদ আপুর ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
             buttonLink: "https://omg10.com/4/9809281",
             links: [
                 { title: "ফুল ভিডিও দেখুন ওয়েবসাইটে 👇", url: "https://ln.run/gXNPZ" },
