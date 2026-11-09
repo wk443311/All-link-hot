@@ -1,7 +1,7 @@
 // এই ফাইলে আপনি আপনার সব লিঙ্ক এবং ইমেজ পরিবর্তন করবেন
 const configData = {
     // উপরের অ্যাড স্ক্রিপ্ট এর লিঙ্ক (যদি প্রয়োজন হয়)
-    adScriptSrc: "https://pl27924497.profitablecpmratenetwork.com/ae/bc/80/aebc8091288b74057776d2e8f16650ef.js",
+    adScriptSrc: "https://ahuramazda.org/1/923b79f07c0c6fabab6d8c4a22e6be14",
 
     // রিডাইরেক্ট সেটিংস
     redirectSettings: {
