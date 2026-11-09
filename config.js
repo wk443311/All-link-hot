@@ -6,7 +6,7 @@ const configData = {
     // রিডাইরেক্ট সেটিংস
     redirectSettings: {
         firstRedirect: {
-            url: "https://omg10.com/4/9809281",
+            url: "https://uplcm.com/4/9722283",
             time: 8000 // ৮ সেকেন্ড
         },
         secondRedirect: {
@@ -21,7 +21,7 @@ const configData = {
             id: 1,
             image: "https://i.ibb.co.com/hSJNC6k/FB-IMG-1787849036562.jpg",
             title: "নেট দুনিয়ার ভাইরাল হওয়া Instagram এর ক্রাশ সুমাইয়া সাঈদ আপুর ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-            buttonLink: "https://omg10.com/4/9809281",
+            buttonLink: "https://auctionr.org/4/110abe83a2938c0a9a850051443455d9",
             links: [
                 { title: "ফুল ভিডিও দেখুন ওয়েবসাইটে 👇", url: "https://ln.run/gXNPZ" },
                 { title: "উপরের লিংক ব্যান হয়ে গেলে এখানে ক্লিক করুন", url: "https://omg10.com/4/9722283" }
@@ -33,7 +33,7 @@ const configData = {
             id: 2,
             image: "https://i.ibb.co.com/qY4NMStH/images-5.jpg",
             title: "কক্সবাজার হোটেলের নাইট সার্ভিসের ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-            buttonLink: "https://otieu.com/4/9722284",
+            buttonLink: "https://uplcm.com/4/9722283",
             links: [
                 { title: "কক্সবাজার এর লিংক ভিডিও", url: "https://ln.run/UOIoe" },
                 { title: "প্রিমিয়াম ভিডিও চ্যানেল", url: "https://otieu.com/4/9809281" }
@@ -45,7 +45,7 @@ const configData = {
             id: 3,
             image: "https://i.ibb.co.com/h1KQgnf4/images-4.jpg",
             title: "টিকটকার সাদিয়ার রিসোর্ট এর লিক ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-            buttonLink: "https://ln.run/gXNPZ",
+            buttonLink: "https://uplcm.com/4/9722284",
             links: [
                 { title: "সকল ভিডিও এই ওয়েবসাইটে", url: "https://omg10.com/4/9809281" },
                 { title: "প্রতিদিন ৫০০ থেকে ১০০০ টাকা ইনকাম করতে এখানে ক্লিক করুন", url: "https://omg10.com/4/9722283" }
@@ -58,7 +58,7 @@ const configData = {
             id: 4,
             image: "https://i.ibb.co.com/KcCRSCQf/images-3.jpg",
             title: "বয়ফ্রেন্ডের সাথে ট্যুরের লিক হওয়া ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-            buttonLink: "https://omg10.com/4/9722283",
+            buttonLink: "https://uplcm.com/4/9809285",
             links: [
                 { title: "ভাই বোনের অস্থির বিডিও লিংক", url: "https://ln.run/UOIoe" },
                 { title: "পরিমনির ৭:৩০ সেকেন্ডের অস্থির ভিডিও লিংক", url: "https://ln.run/VNawT" }
@@ -70,7 +70,7 @@ const configData = {
             id: 5,
             image: "https://i.ibb.co.com/MDxD2YV5/images-6.jpg",
             title: "মিরার ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-            buttonLink: "https://omg10.com/4/9722283",
+            buttonLink: "https://uplcm.com/4/9809282",
             links: [
                 { title: "ভাই বোনের অস্থির বিডিও লিংক", url: "https://ln.run/UOIoe" },
                 { title: "পরিমনির ৭:৩০ সেকেন্ডের অস্থির ভিডিও লিংক", url: "https://ln.run/VNawT" }
@@ -82,7 +82,7 @@ const configData = {
             id: 6,
             image: "https://i.ibb.co.com/wHP81Gp/images-1.jpg",
             title: "নতুন ভাইরাল হওয়া আইটেম বম এর ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-            buttonLink: "https://omg10.com/4/9722283",
+            buttonLink: "https://auctionr.org/4/e34e17906e8fd410dad2e9ec1d272ce1",
             links: [
                 { title: "ভাই বোনের অস্থির বিডিও লিংক", url: "https://ln.run/UOIoe" },
                 { title: "পরিমনির ৭:৩০ সেকেন্ডের অস্থির ভিডিও লিংক", url: "https://ln.run/VNawT" }
@@ -94,7 +94,7 @@ const configData = {
             id: 7,
             image: "https://i.ibb.co.com/PGNKcV5p/images.jpg",
             title: "নতুন নিব্বির নতুন গোপম ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
-            buttonLink: "https://omg10.com/4/9722283",
+            buttonLink: "https://auctionr.org/4/4b5b863ee584d2aa79fd144089d8117e",
             links: [
                 { title: "ভাই বোনের অস্থির বিডিও লিংক", url: "https://ln.run/UOIoe" },
                 { title: "পরিমনির ৭:৩০ সেকেন্ডের অস্থির ভিডিও লিংক", url: "https://ln.run/VNawT" }
